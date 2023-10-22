@@ -6,12 +6,13 @@
 </div>
 
 > [!IMPORTANT]  
-> Open AI API key is required to run this application locally. See instructions below.
+> OpenAI API key is required to run this application locally. See instructions below.
 
 1. Head to [platform.openai.com/signup](https://platform.openai.com/signup) and create a free account. If you already have an OpenAI account, simply log in. **Note:** OpenAI is offering free API keys with $5 worth of free credit for the first three months. After the free credit is exhausted, payment information is required for API access.
 2. Next, click on your profile in the top-right corner and select **View API keys** from the drop-down menu.
 3. Click on “Create new secret key” and copy the API key.
 4. Enter your Open AI API key in `config.py`
+
    ``` Python
    openai_api_key = "your-key-goes-here"
    ```
