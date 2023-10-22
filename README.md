@@ -30,7 +30,13 @@ Curio, the Cat is a virtual AI assistant designed to be a friendly and supportiv
 * Curio is a friendly virtual character that kids can chat with to ask questions and discuss STEM topics.
 * The Curio chat app is powered by Open AI’s API and configured to have a friendly personality that uses appropriate language for school-age children, is provided constraints to only discuss STEM topics, and, like a tutor, walks the user through the process of a solution instead of providing direct answers.
 
+### Project Demo and Presentation
+Link to video of Project Demo: [Demo Video Link](https://drive.google.com/file/d/1U8LB_XDIdXWcGbmRijp8IglueZkk1xeo/view?usp=sharing)
 
+Link to PDF of Project Overview: [PDF Link](https://drive.google.com/file/d/1odmygmC7yS1-v5PstjdTvrmtQbXhdg7R/view?usp=sharing)
+
+### OpenAI API Configuration Playground
+Playground link to view and test API configuration: https://platform.openai.com/playground/p/U15lYr38zoK51rXIue3u8jOa?model=gpt-3.5-turbo
 
 
 ### Built With
@@ -38,6 +44,33 @@ Curio, the Cat is a virtual AI assistant designed to be a friendly and supportiv
  [![Python][Python]][Python-url] 
 
 
+### Installation
+1. Clone the repo:
+
+   ```sh
+   git clone https://github.com/kreatyvstudio/stem-assistant.git
+   ```
+2. Check that the latest versions of Python and pip are installed in your environment.
+3. Install OpenAI and Gradio Libraries. In the Terminal, run the below commands:
+
+   ```sh
+   pip3 install openai
+   ```
+   ```sh
+   pip3 install gradio
+   ```
+4. Get OpenAI API Key at [platform.openai.com/signup](https://platform.openai.com/signup)
+5. Enter your Open API Key in `config.py`
+
+   ``` Python
+   openai_api_key = "your-key-goes-here"
+   ```
+6. Copy the path to the location where you saved `assistant_app.py` and run the following command in Terminal:
+
+   ```sh
+   python3 insert-your-path-to-assistant_app.py
+   ```
+7. It outputs local URL, for example: http://127.0.0.1:7860, to open the app in any browser.
 
 
 <!-- CONTACT -->
